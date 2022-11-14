@@ -48,3 +48,9 @@ print("The similarity between ----- and ----- is:", wv.similarity("", ""))
 #which word is to A as B is to C?
 print(wv.most_similar(positive=["A", "B"], negative=["C"], topn=3))
 ```
+
+It is possible to query the model on a Jupyter notebook provided on our [repository](https://github.com/Entreprecariat/Entreprecariat), or you can download the folder from there:&#x20;
+
+{% file src=".gitbook/assets/InspectWordEmbedding.zip" %}
+
+&#x20;
