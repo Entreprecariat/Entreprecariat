@@ -13,6 +13,6 @@ By means of the Word2Vec model provided by Gensim, we could make inferences of s
 
 The code with the queries is available on our Github [repository](https://github.com/Entreprecariat/Entreprecariat) or you can download it from there:
 
-{% file src="../.gitbook/assets/queriesToTheModel.zip" %}
+{% file src="../.gitbook/assets/queriesToTheModel (2).zip" %}
 
 Answer: we can confirm our expectations, declaring that entreprecariat is a new condition different from the traditional concept of work. It is related to the concept of "precariaty" and "precariousness", but also to some negative adjectives as "panic" and "inability".&#x20;
