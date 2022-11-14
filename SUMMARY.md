@@ -9,6 +9,6 @@
 * [Network Analysis](network-analysis/README.md)
   * [a. People](network-analysis/a.-people.md)
   * [b. Organizations](network-analysis/b.-organizations.md)
-* [Insights](insights.md)
+* [Outcomes and Insights](insights.md)
 * [Conclusions](conclusions.md)
 * [Bibliography](bibliography.md)
