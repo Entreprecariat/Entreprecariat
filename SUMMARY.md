@@ -1,7 +1,7 @@
 # Table of contents
 
 * [The project](README.md)
-  * [Introduction](the-project/introduction.md)
+  * [Assumptions](the-project/introduction.md)
   * [Research Questions](the-project/research-questions.md)
   * [Corpus](the-project/corpus.md)
 * [Distant reading](distant-reading.md)
