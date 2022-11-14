@@ -7,3 +7,5 @@ This project aims at analysing with authomatic tools this new reality of entrepr
 Furthermore, a network analysis of the main entities will be provided in order to bring the concept from a theoretical point of view to a more concrete one, not just the semanticity but relations between the real actor.
 
 This project has been conducted by Giusy Grieco and Bianca La Manna, for the course "Digital Text in the Humanities: theories, methodologies and applications" of the Master's Degree "Digital Humanities and Digital Knowledge", under the supervision of Professor Tiziana Mancinelli.
+
+To see the results and the analysis take a look into our GitBook at this [link](https://app.gitbook.com/o/bvjAPqBfNNQobvML7btW/s/r6o3J1FCEdTFlv6kipcT/)
