@@ -7,3 +7,5 @@ This project aims at analysing with authomatic tools this new reality of entrepr
 Furthermore, a network analysis of the main entities will be provided in order to bring the concept from a theoretical point of view to a more concrete one, not just the semanticity but relations between the real actor.&#x20;
 
 This project has been conducted by Giusy Grieco and Bianca La Manna, for the course "Digital Text in the Humanities:  theories, methodologies and applications" of the Master's Degree "Digital Humanities and Digital Knowledge", under the supervision of Professor Tiziana Mancinelli.&#x20;
+
+To see the results visit the Githbook by following this [link](https://entreprecariat.gitbook.io/entreprecariat/).
