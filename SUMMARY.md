@@ -1,0 +1,14 @@
+# Table of contents
+
+* [The project](README.md)
+  * [Introduction](the-project/introduction.md)
+  * [Research Questions](the-project/research-questions.md)
+  * [Corpus](the-project/corpus.md)
+* [Distant reading](distant-reading.md)
+* [Topic modelling](topic-modelling.md)
+* [Network Analysis](network-analysis/README.md)
+  * [a. People](network-analysis/a.-people.md)
+  * [b. Organizations](network-analysis/b.-organizations.md)
+* [Insights](insights.md)
+* [Conclusions](conclusions.md)
+* [Bibliography](bibliography.md)
