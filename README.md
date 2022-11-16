@@ -1,7 +1,7 @@
 [![Knime](https://img.shields.io/badge/KNIME-v.4.5-yellow)](https://www.knime.com)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Entreprecariat/Entreprecariat/HEAD)
 
 # The project
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Entreprecariat/Entreprecariat/HEAD)
 
 Entreprecariat is a neologism created by Silvio Lorusso, that combines the word 'entrepreneur' and 'precariat' as the core of the creative jobs in our days. The meaning of 'entreprecariat' is well explained in the homonym book written by Lorusso and first published in 2018.
 
