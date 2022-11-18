@@ -13,7 +13,7 @@ def normalize(string):
     text = re.sub(r"'s$", "", text)
     return text
 
-directory = "corpus"
+directory = "corpus" #insert the name of the directory with the text files (or with folders that contains text files) to process
 
 def retrieveEntities(file, type):
     #Build upon the spaCy Large Model
@@ -41,8 +41,6 @@ def retrieveEntities(file, type):
                 if name in person_all: 
                     if name not in variants:
                         variants[name] = person
-        with open("patterns.json", "w", encoding="utf-8") as f: 
-            json.dump(variants, f, indent=4, ensure_ascii=False)
 
     network = nx.Graph()
 
@@ -83,8 +81,3 @@ def retrieveEntities(file, type):
     plt.ylabel(type)  
     plt.title("Horizontal bar graph of entities occurrences")
     plt.show()
-
-
-    #https://kepler.gl/demo
-
-print(retrieveEntities("corpus/books/Entreprecariat_CLEAN.txt", "ORG"))
