@@ -60,34 +60,30 @@ def create_sentences(processedText, filename):
 
     sentences = []
 
-    path = filename[:-7]+".txt"
-    with open(path, "w", encoding="utf-8") as f: 
+    for sent in doc.sents:
+        sentence = sent.text
+        sentence = removePunctuation(sentence)
 
-        for sent in doc.sents:
-            sentence = sent.text
-            sentence = removePunctuation(sentence)
+        #manage all the exceptions
+        sentence = re.sub("[0-9]+(?!d\s|s)[\s$]", "", sentence)
+        sentence = re.sub(" s ", " ", sentence) #it remains both in gerundive ('s) and decades (e.g. 90s)
+        sentence = re.sub("f lux", "f.lux", sentence)
+        sentence = re.sub(" w o ", " without ", sentence)
+        sentence = re.sub("personalexcellence co", " personalexcellence.co ", sentence)
+        sentence = re.sub("o neil ", " O'Neil ", sentence) #O'Neil and Chelsy O are the only case of 'o' alone
+        sentence = re.sub(" o ", "Odunu", sentence) #taking for granted that Chelsy O is Chelsea Odunu, the error comes from the author, we decide to manage it like this
+        sentence = re.sub(" ll ", " ", sentence) #contracted will cannot be managed otherwise since I'll lowecase and without punctuation e.g. would be ill and it is also a word
+        sentence = re.sub(" a b ", " a/b ", sentence) #it's the a/b test -> or just "" to avoid overfitting
+        sentence = re.sub(" j g ", "", sentence) #it's j.g. a name abbreviation
+        sentence = re.sub(" e j ", "", sentence) #it's e.j. a name abbreviation
+        sentence = re.sub(" j l ", "", sentence) #it's j.l. a name abbreviation -> those must be substituted with the extended version
+        sentence = re.sub(" r ", "", sentence) #it's R60/2 the model of BMW
+        words = sentence.split()
+        sentences.append(words)
 
-            #manage all the exceptions
-            sentence = re.sub("[0-9]+(?!d\s|s)[\s$]", "", sentence)
-            sentence = re.sub(" s ", " ", sentence) #it remains both in gerundive ('s) and decades (e.g. 90s)
-            sentence = re.sub("f lux", "f.lux", sentence)
-            sentence = re.sub(" w o ", " without ", sentence)
-            sentence = re.sub("personalexcellence co", " personalexcellence.co ", sentence)
-            sentence = re.sub("o neil ", " O'Neil ", sentence) #O'Neil and Chelsy O are the only case of 'o' alone
-            sentence = re.sub(" o ", "Odunu", sentence) #taking for granted that Chelsy O is Chelsea Odunu, the error comes from the author, we decide to manage it like this
-            sentence = re.sub(" ll ", " ", sentence) #contracted will cannot be managed otherwise since I'll lowecase and without punctuation e.g. would be ill and it is also a word
-            sentence = re.sub(" a b ", " a/b ", sentence) #it's the a/b test -> or just "" to avoid overfitting
-            sentence = re.sub(" j g ", "", sentence) #it's j.g. a name abbreviation
-            sentence = re.sub(" e j ", "", sentence) #it's e.j. a name abbreviation
-            sentence = re.sub(" j l ", "", sentence) #it's j.l. a name abbreviation -> those must be substituted with the extended version
-            sentence = re.sub(" r ", "", sentence) #it's R60/2 the model of BMW
-            words = sentence.split()
-            sentences.append(words)
-
-            f.write(" ".join(words))
     return sentences
 
-def wordEmbedding(directory, model_name):
+def wordEmbedding(directory):
     AllSentences = []
     for folder in os.listdir(directory):
         path = os.path.join(directory, folder)
@@ -112,20 +108,15 @@ def wordEmbedding(directory, model_name):
                     AllSentences.extend(sentences)
 
     phrases = Phrases(AllSentences, min_count=30, progress_per=10000)
-    print ("Made Phrases", phrases)
     
     bigram = Phraser(phrases)
-    print ("Made Bigrams")
     
     sentences = phrases[AllSentences]
-    print (sentences[0], "Found sentences")
     word_freq = defaultdict(int)
 
     for sent in sentences:
         for i in sent:
             word_freq[i]+=1
-
-    print (len(word_freq))
     
     print ("Training model now...")
     w2v_model = Word2Vec(bigram[AllSentences],
@@ -138,16 +129,8 @@ def wordEmbedding(directory, model_name):
                         negative=20)
     w2v_model.build_vocab(sentences, progress_per=10000)
     w2v_model.train(sentences, total_examples=w2v_model.corpus_count, epochs=30, report_delay=1)
-    print("W2V", w2v_model.wv) #it is a keyedvectors object: https://radimrehurek.com/gensim/models/keyedvectors.html
     word_vectors = w2v_model.wv
-    word_vectors.save("vectors/{model_name}.wordvectors")
-    
-    #w2v_model.wv.save_word2vec_format(f"data/{model_name}.tsv", write_header=False)
+    word_vectors.save("vectors/word2vec.wordvectors")
 
-    #evaluate the model
-    #similarities = w2v_model.wv.evaluate_word_pairs(datapath('wordsim353.tsv'))
-
-
-model = 'word_vecs'
 directory = 'corpus'
-print(wordEmbedding(directory, model))
+print(wordEmbedding(directory))
