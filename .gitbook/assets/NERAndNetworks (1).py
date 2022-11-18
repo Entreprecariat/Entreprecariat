@@ -41,6 +41,8 @@ def retrieveEntities(file, type):
                 if name in person_all: 
                     if name not in variants:
                         variants[name] = person
+        with open("patterns.json", "w", encoding="utf-8") as f: 
+            json.dump(variants, f, indent=4, ensure_ascii=False)
 
     network = nx.Graph()
 
