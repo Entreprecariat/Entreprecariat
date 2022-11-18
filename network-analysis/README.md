@@ -21,3 +21,6 @@ Then, we proceded building a network from the people/organizations who co-occure
 
 Both the graph visualization and the horizontal bar chart have been produced through the python library matplotlib.&#x20;
 
+The code used to extract the entities and build both the the networks and the bar charts is available below.
+
+{% file src="../.gitbook/assets/NERAndNetworks.py" %}
