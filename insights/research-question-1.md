@@ -15,6 +15,9 @@ The code with the queries is available on our Github [repository](https://github
 
 {% file src="../.gitbook/assets/queriesToTheModel (2).zip" %}
 
-Results: we can confirm our expectations, declaring that entreprecariat is a new condition different from the traditional concept of work. It is related to the concept of "precariaty" and "precariousness", but also to some negative adjectives as "panic" and "inability".&#x20;
+Answer: we can confirm our expectations, declaring that entreprecariat is a new condition different from the traditional concept of work. It is related to the concept of "precariaty" and "precariousness", but also to some negative adjectives as "panic" and "inability".&#x20;
 
 Insights:&#x20;
+
+* inabilityè la parola chiave:è l'impotenza. Quelli che detengono il "potere" osno gli entreprecariat, qundi imprenditori che sono precari e che si sentono impotenti. il paradosso.(realism capitalism di mark fisher). il rischio dell'imprenditore è alla base di questo paradosso.
+* differenza giovani/aziani: questa forma di precariato viene sempre associata ai giovani: l'entreprecariat è uno stile di vita lifestyle che va con qualsiasi lavoro: a contratto, a tempo det e non; il precariato è una condizione del giovane.
