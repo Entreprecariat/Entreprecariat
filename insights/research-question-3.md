@@ -13,12 +13,3 @@ Through our network analysis it is possible to state that the actors identified 
 Answer: If on one hand the entreprecariat-ism is a social phenomenon in which people and organizations from the West have an active role, we can infer from our data that repercussion are on a global scale
 
 A further development of this hypothesis could be to identify if those actors are ruling the labour market, i.e., they cause enterprecariatism, or if they are following a social phenomenon, i.e. entreprecariatism is caused by other social factors.
-
-Insights:&#x20;
-
-* absence of women ricorda di checkare libri delle donne non inseriti nel corpus nuova narrzione delle donne imprenditrici (no machista).
-* noi abbiamo analzizato cose che riguardano steso caso. nel tema entrepreenur-precariat manca la visione femminile.
-
-\-un'ipotesi che possiamo fare, visto che i libri ci sono tra donne, l entrepreneurship non è "al femminile"
-
-* per i luoghi -città tecnologicamente avanzate, centri di ricerca ad alta tecnologia -open source come contrapposizione alle grandi aziende (caps lock libro, parte finale)
