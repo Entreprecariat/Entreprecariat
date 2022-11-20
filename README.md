@@ -12,4 +12,4 @@ Furthermore, a network analysis of the main entities will be provided in order t
 
 This project has been conducted by Giusy Grieco and Bianca La Manna, for the course "Digital Text in the Humanities: theories, methodologies and applications" of the Master's Degree "Digital Humanities and Digital Knowledge", under the supervision of Professor Tiziana Mancinelli.
 
-To see the results and the analysis take a look into our GitBook at this [link](https://app.gitbook.com/o/bvjAPqBfNNQobvML7btW/s/r6o3J1FCEdTFlv6kipcT/)
+To see the results and the analysis take a look into our GitBook at this [link](entreprecariat.gitbook.io)
