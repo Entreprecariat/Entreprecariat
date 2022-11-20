@@ -29,3 +29,6 @@ On the counterpart, works related to technologies need a high level education an
 Those suggestions comes from the observation of the underlying patterns that go along our data.&#x20;
 
 Further analysis centered on the actors of entreprecariat (i.e. a corpus centred on those organizations and companies) could confirm them or bring a completely new perspective.&#x20;
+
+
+**\[TECHNICAL FUTURE DEVELOPMENTS]** From a pure statistical point of view, it would be interesting using non-probabilistic methods for topic modelling, both static and dynamic.
