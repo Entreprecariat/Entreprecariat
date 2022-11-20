@@ -21,3 +21,10 @@ Entreprecariat:&#x20;
 * Communities as the centre -> they need places of research with high technologies, all the remaining is cut off
 * Involving of women, changing the semanticity
 * Power not money-related but information-related
+
+
+
+* absence of women ricorda di checkare libri delle donne non inseriti nel corpus nuova narrzione delle donne imprenditrici (no machista).
+* noi abbiamo analzizato cose che riguardano steso caso. nel tema entrepreenur-precariat manca la visione femminile.
+
+\-un'ipotesi che possiamo fare, visto che i libri ci sono tra donne, l entrepreneurship non è "al femminile"
