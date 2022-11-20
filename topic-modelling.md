@@ -30,7 +30,8 @@ It is remarkable to say that the exploratory data analysis represents an evergre
 
 **\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**.
 
-New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the word embedding process. In this sense, the Topic Modelling/Detection has been done putting into the starting corpora the following books and articles:
+New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the word embedding process. In this sense, the Topic Modelling pipeline includes the following corpus:
+
 - Foti, A., General Theory of the Precariat: Great Recession, Revolution, Reaction, Institute of Network Cultures, 2017
 - Lorusso, S., "On “Fuck You Startup World” and Entreprecariat at Large. We're all Richard", www.networkcultures.org, last checked: 20/11/2022
 - Lorusso, S., "Entreprecariat: Everyone Is an Entrepreneur. Nobody Is Safe.", Onomatopee, 2018
@@ -40,7 +41,7 @@ New documents of semantic and syntactic similarity between words are obtained di
 - Standing, G., "The Precariat: The New Dangerous Class", Bloomsbury USA Academic, 2014
 - Scholz, T., "Uberworked and Underpaid: How Workers Are Disrupting the Digital Economy"
 
-**\[MODELLING]** The real strenght of topic models here relies on "tracking down this otherness hidden in language (and, perhaps, in what language talks about)" (see for more [_Reading Machines_](bibliography.md)).
+**\[MODELLING]** The real strenght of topic models here relies on "tracking down this otherness hidden in language (and, perhaps, in what language talks about)" (see for more [_Reading Machines_](bibliography.md)). Through a careful job of fine tuning, **4 topics** have been retrieved from the analysis (rif: fine tuning pieces in articles to copy and remix here).
 
 **\[EDITING AND CURATION]** As a matter of fact, the process aimed to reach the most valuable index of held-out likelihood in order to prevent over/underf fitting. Meaning that we got our hands into practically **tuning the aspects of our interest during coding**. For example, here we don't mean to rely on chapters division based modelling, and we chose to add some nouns into the stop words collections, since it was resulting irrelevant for the initial purpose of the process (see:interactive topic modelling).
 
