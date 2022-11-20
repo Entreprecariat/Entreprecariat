@@ -14,4 +14,5 @@
   * [Research Question 2](insights/research-question-2.md)
   * [Research Question 3](insights/research-question-3.md)
 * [Conclusions](conclusions.md)
+* [The Team](the-team.md)
 * [Bibliography](bibliography.md)
