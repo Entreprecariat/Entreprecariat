@@ -56,7 +56,8 @@ We talked about the possible future imporvements of the projects [here](conclusi
 
 **\[TECHNICAL DEVELOPMENT]**
 
-aggiungi parte più tecnica alla fine ([https://medium.com/@fatmafatma/topic-model-2313e8774967](https://medium.com/@fatmafatma/topic-model-2313e8774967))
+**\[THE FRAMEWORK]**
+
 
 
 
