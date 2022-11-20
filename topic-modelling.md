@@ -30,7 +30,15 @@ It is remarkable to say that the exploratory data analysis represents an evergre
 
 **\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**.
 
-New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the word embedding process.
+New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the word embedding process. In this sense, the Topic Modelling/Detection has been done putting into the starting corpora the following books and articles:
+- Foti, A., General Theory of the Precariat: Great Recession, Revolution, Reaction, Institute of Network Cultures, 2017
+- Lorusso, S., "On “Fuck You Startup World” and Entreprecariat at Large. We're all Richard", www.networkcultures.org, last checked: 20/11/2022
+- Lorusso, S., "Entreprecariat: Everyone Is an Entrepreneur. Nobody Is Safe.", Onomatopee, 2018
+- Barton, G., "Don't Get a Job... Make a Job. How to Make It As a Creative Graduage", Laurence King, 2016
+- Berardi, F., "Precarious Rhapsody: Semiocapitalism and the Pathologies of Post-Alpha Generation", Autonomedia, 2009
+- Bröckling U., "The Entrepreneurial Self. Fabricating a New Type of Subject", Translated by Steven Black, SAGE Publications, 2015
+- Standing, G., "The Precariat: The New Dangerous Class", Bloomsbury USA Academic, 2014
+- Scholz, T., "Uberworked and Underpaid: How Workers Are Disrupting the Digital Economy"
 
 **\[MODELLING]** The real strenght of topic models here relies on "tracking down this otherness hidden in language (and, perhaps, in what language talks about)" (see for more [_Reading Machines_](bibliography.md)).
 
@@ -40,13 +48,13 @@ New documents of semantic and syntactic similarity between words are obtained di
 
 While going on with the mainly Python-based practice, we encountered an interesting piece of research from of the most relevant personalities in the field of topic modelling, i.e. professor David Mimno that, together with [other researchers](bibliography.md), explains how topic modeling for scientific papers differs in some ways from that related to fiction books.
 
-The attention towards innovatiove topic is not rarely found in scientific research paper studies- Indeed, in that case it is shed a light on new techniques, new understanding, new terminolgies.
+Indeed, the attention towards innovative topic is not rarely found in scientific research paper studies; in that case it is shed a light on new techniques, new understanding, new terminolgies.
 
 In the era of Fourth Revolution, information is the most important currency, and this can also be read in Entreprecariat, and in other prevident books like the not less famous "The Gutemberg Galaxy" of Marshall McLuhan. &#x20;
 
-To consider the book "Entreprecariat" as a vademecum of the zeitgeist means leafing through it with a look on politics and social life not only of the Western World.
+**To consider the book "Entreprecariat" as a vademecum of the zeitgeist means leafing through it with a look on politics and social life not only of the Western World.
 
-We talked about the possible future imporvements of the projects [here](conclusions.md), but in the meantime it can be stated that **innovation is hard to detect and attribute**. It involves communities, theories and practices and different methods.  We refer to this discourse [here](the-project/introduction.md), too.
+We talked about the possible future imporvements of the projects [here](conclusions.md), but in the meantime it can be stated that **innovation is hard to detect and attribute**. It involves communities, theories and practices and different methods.  We make this discourse [here](the-project/introduction.md), too.
 
 **\[CONNECTING THE DOTS]** For what said until now, topic modelling approaches entered the work flow phisiologically, since it is based on the so-called "posterior inference", i.e. a practice clearly based on input data.&#x20;
 
