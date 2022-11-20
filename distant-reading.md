@@ -14,7 +14,7 @@ The approach of macroanalysis takes inspiration from the difference between "mic
 
 Trying to analyse and contextualize "Entreprecariat", the distant reading is a difficult and controversial path, since there is no literature about this new concept and it is difficult to put together and large, but still reliable corpus on the theme.&#x20;
 
-We decided to procede with a semantic analysis of the text, by means of word embeddings, in order to inspect quantified textual data.&#x20;
+We decided to procede with a semantic analysis of the text, by means of **word embeddings**, in order to inspect quantified textual data.&#x20;
 
 **\[BASIC CONTEXT ANALYSIS]** Our analysis started from a corpus that could contain the word 'entreprecariat', in which the author is Silvio Lorusso, out of the tweets.&#x20;
 
