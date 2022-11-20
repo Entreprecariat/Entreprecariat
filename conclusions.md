@@ -31,4 +31,4 @@ Those suggestions comes from the observation of the underlying patterns that go 
 Further analysis centered on the actors of entreprecariat (i.e. a corpus centred on those organizations and companies) could confirm them or bring a completely new perspective.&#x20;
 
 
-**\[TECHNICAL FUTURE DEVELOPMENTS]** From a pure statistical point of view, it would be interesting using non-probabilistic methods for topic modelling, both static and dynamic.
+**\[TECHNICAL FUTURE DEVELOPMENTS]** From a pure Natural Language Processing and therefore, statistical point of view, it would be interesting to use non-probabilistic methods for topic modelling, both static and dynamic, and in particular to use Topic Distributions directly as feature vectors in supervised classification models, as described by Marc Kelechava [here](https://towardsdatascience.com/unsupervised-nlp-topic-models-as-a-supervised-learning-input-cf8ee9e5cf28).
