@@ -27,6 +27,9 @@ A very first close attempt to the book is the word cloud, in which it is possibl
 It is remarkable to say that the exploratory data analysis represents an evergreen step, that has been exterted for this research various times not only to have a visual hint, but to compare results from different processes and for mutual counter-proofs.
 
 **\[TOPIC]** Here the "topic" in modelling is to be intended following the statistical meaning of the term, for which a "learning topic hierarchy" consisting in word->topic->document can be obtained through the pipeline described afterwards; hence, we do not define the level of abstraction formally, but we rely on the previous statistical language processing literature to design the aforementioned system.
+**\[FRAMEWORK]** As advanced in [this paper](Maier D, Waldherr A, Miltner P, Wiedemann G, Niekler A, Keinert A, Adam S. Applying LDA topic modeling in communication research: toward a valid and reliable methodology. Commun Methods Meas. 2018;12(2–3):93–118.) and many other resources, the framework here adopted follows a three step pipeline: **pre-processing, topic modelling, and post-processing**, where the topic model Latent Dirichlet Allocation is used, following the Mallet TM library.
+Transparency and reliability of the result has been provided through a keen eye on the fine tuning of the parameters,  subjective decision, to exploit the whole potentialities of the mean. It is important to state here that the LDA algorithm is stochastic, hence the corpus has been associated to 4 topics, each of which has generated 25 words, taken from the corpus itself.
+--The surfaced topics These  ‘hidden’ topics are then surfaced based on the likelihood of word co-occurrence-
 
 **\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**. Parliamo dei futri development qui
 
