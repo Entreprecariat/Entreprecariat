@@ -28,7 +28,7 @@ It is remarkable to say that the exploratory data analysis represents an evergre
 
 **\[TOPIC]** Here the "topic" in modelling is to be intended following the statistical meaning of the term, for which a "learning topic hierarchy" consisting in word->topic->document can be obtained through the pipeline described afterwards; hence, we do not define the level of abstraction formally, but we rely on the previous statistical language processing literature to design the aforementioned system.
 
-**\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**.
+**\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**. Parliamo dei futri development qui
 
 New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the word embedding process. In this sense, the Topic Modelling pipeline includes the following corpus:
 
