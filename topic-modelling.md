@@ -20,7 +20,7 @@ Starting from this considerations we decided to procede with the topic modelling
 
 At the very beginning of a data-related work it can be useful first to have some visual rendering of our raw data.
 
-<figure><img src=".gitbook/assets/exploratoryDataAnalysis_entreprecariat.png" alt=""><figcaption><p>Word cloud of the book "Entreprecariat" during the very first exploratory data analysis. Made in voyant-tools.org.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Entreprecariat_TopicDetection_LDA_Mallet.JPG""><figcaption><p>Word cloud of the book "Entreprecariat" during the very first exploratory data analysis. Made in voyant-tools.org.</p></figcaption></figure>
 
 A very first close attempt to the book is the word cloud, in which it is possible to see the most frequent word in the entire book, before the preprocessing of its text.
 
