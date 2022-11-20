@@ -4,7 +4,6 @@ import re
 import networkx as nx
 import matplotlib.pyplot as plt
 from fuzzywuzzy.process import dedupe 
-import json
 from collections import deque
 import pandas as pd
 
@@ -12,8 +11,6 @@ def normalize(string):
     text = re.sub(r"\n.*", "", string)
     text = re.sub(r"'s$", "", text)
     return text
-
-directory = "corpus" #insert the name of the directory with the text files (or with folders that contains text files) to process
 
 def retrieveEntities(file, type):
     #Build upon the spaCy Large Model
@@ -70,6 +67,7 @@ def retrieveEntities(file, type):
     plt.show()
 
     #rating of cited entities
+    print(entitiesRating)
 
     df = pd.DataFrame(list(entitiesRating.items()),columns = ['Entity','Count']).sort_values(by=["Count"], ascending=False)
     plt.barh(df["Entity"].head(10), df["Count"].head(10))
