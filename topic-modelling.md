@@ -31,9 +31,9 @@ It is remarkable to say that the exploratory data analysis represents an evergre
 Transparency and reliability to exploit the hidden semantic structure in documents has been provided through the fine tuning of the parameters, set by subjective decision. It is important to state here that the LDA algorithm is stochastic, hence the corpus has been associated to 4 topics, each of which has generated 25 words, taken from the corpus itself.
 <figure><img src="../.gitbook/assets/Entreprecariat_TopicDetection_LDA_Mallet.jpg" alt=""><figcaption><p>KNIME pipeline for topic detection. Here the grey nodes (i.e. modules) inglobe the preprocessing structure</p></figcaption></figure>
 
-**\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**. Parliamo dei futri development qui
+**\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**.
 
-New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the word embedding process. In this sense, the Topic Modelling pipeline includes the following corpus:
+New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the [word embedding process](wordEmbedding.py). In this sense, the Topic Modelling pipeline includes the following corpus:
 
 - Foti, A., General Theory of the Precariat: Great Recession, Revolution, Reaction, Institute of Network Cultures, 2017
 - Lorusso, S., "On “Fuck You Startup World” and Entreprecariat at Large. We're all Richard", www.networkcultures.org, last checked: 20/11/2022
@@ -44,10 +44,7 @@ New documents of semantic and syntactic similarity between words are obtained di
 - Standing, G., "The Precariat: The New Dangerous Class", Bloomsbury USA Academic, 2014
 - Scholz, T., "Uberworked and Underpaid: How Workers Are Disrupting the Digital Economy"
 
-**\[MODELLING]** The real strenght of topic models here relies on "tracking down this otherness hidden in language (and, perhaps, in what language talks about)" (see for more [_Reading Machines_](bibliography.md)). Through a careful job of fine tuning, **5 topics** have been retrieved from the analysis. Though has been decided to mantain certin words in more than one topic, to avoid a large number of repetitions the preprocessing has been enriched making some tries through lemmatizing and stemming.
-
-
-**\[EDITING AND CURATION]** As a matter of fact, the process aimed to reach the most valuable index of held-out likelihood in order to prevent over/underf fitting. Meaning that we got our hands into practically **tuning the aspects of our interest trhough the whole pipeline**. For example, here we don't mean to rely on chapters division based modelling, and we chose to add some nouns into the stop words collections, since it was resulting irrelevant for the initial purpose of the process (see for more [here](https://link.springer.com/article/10.1007/s10994-013-5413-0)).
+**\[MODELLING]** The real strenght of topic models here relies on "tracking down this otherness hidden in language (and, perhaps, in what language talks about)" ([_Reading Machines_](bibliography.md)). Through a careful job of fine tuning, **5 topics** have been retrieved from the analysis. Though has been decided to mantain certin words in more than one topic, to avoid a large number of repetitions the preprocessing has been enriched making some tests in lemmatizing and stemming of the documents.
 
 Technical Specifications:
 No. of topics: 5
@@ -57,6 +54,10 @@ Beta: 0,1
 No. of iterations: 2000
 No. of threads: 8
 
+
+**\[EDITING AND CURATION]** As a matter of fact, the process aimed to reach the most valuable index of held-out likelihood in order to prevent over/underf fitting. Meaning that we got our hands into practically **tuning the aspects of our interest trhough the whole pipeline**. For example, here we don't mean to rely on chapters division based modelling, and we chose to add some nouns into the stop words collections, since it was resulting irrelevant for the initial purpose of the process (see for more [here](https://link.springer.com/article/10.1007/s10994-013-5413-0)).
+
+--
 **\[AREAS OF POTENTIAL INTEREST]** As stated in the Research Question [chapter](the-project/research-questions.md), we asked ourselves: how can we manage to put a spot on the **neologism**, treating the book as an innovative piece of literature?
 
 While going on with through the work practice, we encountered an interesting piece of research from of the most relevant personalities in the field of topic modelling, i.e. professor David Mimno that, together with [other researchers](bibliography.md), explains how topic modeling for scientific papers differs in some ways from that related to fiction books.
