@@ -6,6 +6,6 @@ The network of people cited in "Enterprecariat" is composed of different compone
 
 <figure><img src="../.gitbook/assets/Figure_2 (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Another component from the social network of "Entreprecariat. A interesting triad is the one composed by Bill Gates, Elon Must and Steve Jobs.</p></figcaption></figure>
 
-Those patterns, however, show associations that come out from the point of view of the author. A more interesting visualization is the **horizontal barchart** that can show the most **cited people** of the book, giving a more objective overview on the actors involved in these social changes:
+Those patterns, however, show associations that come out from the point of view of the author. A more interesting visualization is the horizontal barchart that can show the most cited people of the book, giving a more objective overview on the actors involved in these social changes:
 
-<figure><img src="../.gitbook/assets/BarH_People.png" alt=""><figcaption><p>Horizontal barchart with the most cited people in "Entreprecariat".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/BarH_People.png" alt=""><figcaption></figcaption></figure>
