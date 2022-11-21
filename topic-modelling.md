@@ -54,8 +54,10 @@ Beta: 0,1
 No. of iterations: 2000
 No. of threads: 8
 
+<figure><img src=".gitbook/assets/Entreprecariat_BagOfWords_TM.JPG"><figcaption><p>Word cloud obtained from the Topic Detection</p></figcaption></figure>
 
 **\[EDITING AND CURATION]** As a matter of fact, the process aimed to reach the most valuable index of held-out likelihood in order to prevent over/underf fitting. Meaning that we got our hands into practically **tuning the aspects of our interest trhough the whole pipeline**. For example, here we don't mean to rely on chapters division based modelling, and we chose to add some nouns into the stop words collections, since it was resulting irrelevant for the initial purpose of the process (see for more [here](https://link.springer.com/article/10.1007/s10994-013-5413-0)). 
+
 
 Topics have been detected as follows:
 - Topic_0: POLICY
