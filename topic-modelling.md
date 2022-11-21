@@ -55,7 +55,156 @@ No. of iterations: 2000
 No. of threads: 8
 
 
-**\[EDITING AND CURATION]** As a matter of fact, the process aimed to reach the most valuable index of held-out likelihood in order to prevent over/underf fitting. Meaning that we got our hands into practically **tuning the aspects of our interest trhough the whole pipeline**. For example, here we don't mean to rely on chapters division based modelling, and we chose to add some nouns into the stop words collections, since it was resulting irrelevant for the initial purpose of the process (see for more [here](https://link.springer.com/article/10.1007/s10994-013-5413-0)).
+**\[EDITING AND CURATION]** As a matter of fact, the process aimed to reach the most valuable index of held-out likelihood in order to prevent over/underf fitting. Meaning that we got our hands into practically **tuning the aspects of our interest trhough the whole pipeline**. For example, here we don't mean to rely on chapters division based modelling, and we chose to add some nouns into the stop words collections, since it was resulting irrelevant for the initial purpose of the process (see for more [here](https://link.springer.com/article/10.1007/s10994-013-5413-0)). 
+
+Topics have been detected as follows:
+- Topic_0: POLICY
+- Topic_1: SHARING_ECONOMY
+- Topic_2: ENTREPRECARIAT_LIFE
+- Topic_3: CAPITALISM_CRISIS
+- Topic_4: ZEITGEIST
+
+Words per topic:
+
+*Topic_0*
+
+labour | 
+social | 
+country | 
+benefit | 
+migrant | 
+society | 
+cent | 
+security | 
+firm | 
+woman | 
+temporary | 
+rights | 
+public | 
+wages | 
+cost | 
+form | 
+service | 
+million | 
+global | 
+grow | 
+move | 
+policy | 
+status | 
+call | 
+age | 
+
+*Topic_1*
+
+platform | 
+digital | 
+company | 
+internet | 
+datum | 
+user | 
+service | 
+write | 
+online | 
+social | 
+call | 
+exploitation | 
+value | 
+media | 
+design | 
+cooperative | 
+start | 
+crowd | 
+book | 
+chapter | 
+business | 
+site | 
+day | 
+share | 
+term | 
+
+*Topic_2*
+
+project  | 
+individual | 
+self | 
+social | 
+creative | 
+human | 
+power | 
+subject | 
+quality | 
+contract | 
+management | 
+form | 
+theory | 
+practice | 
+experience | 
+model | 
+idea | 
+force | 
+mean | 
+action | 
+sense | 
+competition | 
+follow | 
+success | 
+
+*Topic_3*
+
+social | 
+europe | 
+union | 
+america | 
+precarity | 
+power | 
+neoliberalism | 
+global | 
+recession | 
+unemployment | 
+revolution | 
+rate | 
+financial | 
+populism | 
+democracy | 
+wage | 
+capitalist | 
+green | 
+form | 
+war | 
+basic | 
+defeat | 
+demand | 
+lead | 
+national | 
+
+*Topic_4*
+
+social | 
+process | 
+human | 
+cognitive | 
+form | 
+mind | 
+effect | 
+intellectual | 
+depression | 
+century 
+body | 
+power | 
+production | 
+attention | 
+war | 
+sign | 
+condition | 
+organism | 
+capitalist | 
+information | 
+knowledge | 
+word | 
+productive | 
+sphere | 
+desire | 
+
 
 --
 **\[AREAS OF POTENTIAL INTEREST]** As stated in the Research Question [chapter](the-project/research-questions.md), we asked ourselves: how can we manage to put a spot on the **neologism**, treating the book as an innovative piece of literature?
