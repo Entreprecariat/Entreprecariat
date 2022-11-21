@@ -26,22 +26,17 @@ A very first close attempt to the book is the word cloud, in which it is possibl
 
 It is remarkable to say that the exploratory data analysis represents an evergreen step, that has been exterted for this research various times not only to have a visual hint, but to compare results from different processes and for mutual counter-proofs.
 
-**\[TOPIC]** Here the "topic" in modelling is to be intended following the statistical meaning of the term, for which a "learning topic hierarchy" consisting in word->topic->document can be obtained through the pipeline described afterwards; hence, we do not define the level of abstraction formally, but we rely on the previous statistical language processing literature to design the aforementioned system. **\[FRAMEWORK]** As advanced in \[this paper]\(Maier D, Waldherr A, Miltner P, Wiedemann G, Niekler A, Keinert A, Adam S. Applying LDA topic modeling in communication research: toward a valid and reliable methodology. Commun Methods Meas. 2018;12(2–3):93–118.) and many other resources, the framework here adopted follows a three step pipeline: **pre-processing, topic modelling, and post-processing**, where the topic model Latent Dirichlet Allocation (unsupervised machine-learning model) is used, enriched by the Mallet TM library. Transparency and reliability to exploit the hidden semantic structure in documents has been provided through the fine tuning of the parameters, set by subjective decision. It is important to state here that the LDA algorithm is stochastic, hence the corpus has been associated to 4 topics, each of which has generated 25 words, taken from the corpus itself.
+**\[TOPIC]** Here the "topic" in modelling is to be intended following the statistical meaning of the term, for which a "learning topic hierarchy" consisting in word->topic->document can be obtained through the pipeline described afterwards; hence, we do not define the level of abstraction formally, but we rely on the previous statistical language processing literature to design the aforementioned system.&#x20;
+
+****
+
+**\[FRAMEWORK]** As advanced in [this paper](https://www.tandfonline.com/doi/abs/10.1080/19312458.2018.1430754) and many other resources, the framework here adopted follows a three step pipeline: **pre-processing, topic modelling, and post-processing**, where the topic model Latent Dirichlet Allocation (unsupervised machine-learning model) is used, enriched by the Mallet TM library. Transparency and reliability to exploit the hidden semantic structure in documents has been provided through the fine tuning of the parameters, set by subjective decision. It is important to state here that the LDA algorithm is stochastic, hence the corpus has been associated to 5 topics, each of which has generated 25 words, taken from the corpus itself.
 
 <figure><img src=".gitbook/assets/Entreprecariat_TopicDetection_LDA_Mallet.jpg" alt=""><figcaption><p>KNIME pipeline for topic detection. Here the grey nodes (i.e. modules) inglobe the preprocessing structure</p></figcaption></figure>
 
 **\[DYNAMIC]** Furthermore, we'd like to prominently recall the "dynamic" characteristic of topic modelling to linger its generative approach and its keen eye on **innovation-oriented contexts**.
 
-New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the [word embedding process](wordEmbedding.py). In this sense, the Topic Modelling pipeline includes the following corpus:
-
-* Foti, A., General Theory of the Precariat: Great Recession, Revolution, Reaction, Institute of Network Cultures, 2017
-* Lorusso, S., "On “Fuck You Startup World” and Entreprecariat at Large. We're all Richard", www.networkcultures.org, last checked: 20/11/2022
-* Lorusso, S., "Entreprecariat: Everyone Is an Entrepreneur. Nobody Is Safe.", Onomatopee, 2018
-* Barton, G., "Don't Get a Job... Make a Job. How to Make It As a Creative Graduage", Laurence King, 2016
-* Berardi, F., "Precarious Rhapsody: Semiocapitalism and the Pathologies of Post-Alpha Generation", Autonomedia, 2009
-* Bröckling U., "The Entrepreneurial Self. Fabricating a New Type of Subject", Translated by Steven Black, SAGE Publications, 2015
-* Standing, G., "The Precariat: The New Dangerous Class", Bloomsbury USA Academic, 2014
-* Scholz, T., "Uberworked and Underpaid: How Workers Are Disrupting the Digital Economy"
+New documents of semantic and syntactic similarity between words are obtained directly from input data and specifically drawn through a dependency structure made available by the [word embedding process](wordEmbedding.py). In this sense, the Topic Modelling pipeline includes the [corpus](the-project/corpus.md).
 
 **\[MODELLING]** The real strenght of topic models here relies on "tracking down this otherness hidden in language (and, perhaps, in what language talks about)" ([_Reading Machines_](bibliography.md)). Through a careful job of fine tuning, **5 topics** have been retrieved from the analysis. Though has been decided to mantain certin words in more than one topic, to avoid a large number of repetitions the preprocessing has been enriched making some tests in lemmatizing and stemming of the documents.
 
