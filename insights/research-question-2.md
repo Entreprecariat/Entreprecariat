@@ -8,4 +8,4 @@ The information society is characterised by the "lack of sense" of which Bifo ta
 
 The presence of precariat is typical of all the countries "existing under contemporary information capitalism" (Foti, 2013).  The decision to juxtapose the document of "Entreprecariat" to other documents very important in the field is born after testing with word-embeddings.
 
-<figure><img src=".gitbook/assets/Topics by Document.JPG"><figcaption><p>Topics by Document. Made in Knime.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/TopicsByDocument.JPG"><figcaption><p>Topics by Document. Made in Knime.</p></figcaption></figure>
