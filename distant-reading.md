@@ -4,30 +4,30 @@ description: And Similarity Analysis
 
 # Distant reading
 
-**\[DRAFT INTRO]** In "Macroanalysis", Jackers suggests a new approach to computational analysis of texts, based on the concept of distand reading as defined by Franco Moretti.&#x20;
+**\[INTRO]** In "Macroanalysis", Jackers suggests a new approach to computational analysis of texts, based on the concept of distant reading as defined by Franco Moretti.
 
 > _This is no longer reading that we are talking about (Jockers 2013, 31)_
 
-The approach of macroanalysis takes inspiration from the difference between "microeconomic" and "macroeconomic", suggesting a quantifiable inspections of big corpora, that allows to capture the main phenomena and tendencies.&#x20;
+The approach of macroanalysis takes inspiration from the difference between "microeconomic" and "macroeconomic", suggesting a quantifiable inspections of big corpora, that allows to capture the main phenomena and tendencies.
 
 > _The underlying assumption is that by exploring the literary record writ large, we will better understand the context in which individual texts exist and thereby better understand those individual texts (Jockers 2013, 41)_
 
-Trying to analyse and contextualize "Entreprecariat", the distant reading is a difficult and controversial path, since there is no literature about this new concept and it is difficult to put together and large, but still reliable corpus on the theme.&#x20;
+Trying to analyse and contextualize "Entreprecariat", the distant reading is a difficult and controversial path, since there are no wide and reliable referrements to this new concept in the literature and this brings some difficulties in putting a corpus on the theme.
 
-We decided to procede with a semantic analysis of the text, by means of **word embeddings**, in order to inspect quantified textual data.&#x20;
+We decided to procede with a semantic analysis of the text, by means of **word embeddings**, in order to inspect **quantified textual data**.
 
-**\[BASIC CONTEXT ANALYSIS]** Our analysis started from a corpus that could contain the word 'entreprecariat', in which the author is Silvio Lorusso, out of the tweets.&#x20;
+**\[BASIC CONTEXT ANALYSIS]** Our analysis started from a corpus that could contain the word 'entreprecariat', in which the author is Silvio Lorusso, out of the tweets.
 
-We used the Python libraries spacy and gensim to process the text and do the word embeddings.&#x20;
+We used the Python libraries [**spacy**](https://spacy.io/) and [**gensim**](https://radimrehurek.com/gensim/index.html) to process the text and do the word embeddings.
 
-The pipeline we followed in order to pre-process all the texts is the following:&#x20;
+The pipeline we followed in order to pre-process all the texts is the following:
 
-* Preprocessing the texts with Spacy&#x20;
+* Preprocessing the texts with Spacy
 * Removing all the stopwords and punctuation
 * Sentence recognition
 * Word embedding with Word2Vec
 
-**\[SIMILARITY ANALYSIS]** For each word we assigned ten vectors, and from those vectorialization we made the following queries:&#x20;
+**\[SIMILARITY ANALYSIS]** For each word we assigned ten vectors, and against those vectorialization we made the following queries:
 
 * Which word is the most similar to entreprecariat?
 * Which is the most dissimilar?
@@ -49,8 +49,6 @@ print("The similarity between ----- and ----- is:", wv.similarity("", ""))
 print(wv.most_similar(positive=["A", "B"], negative=["C"], topn=3))
 ```
 
-It is possible to query the model on a Jupyter notebook provided on our [repository](https://github.com/Entreprecariat/Entreprecariat), or you can download the folder from there:&#x20;
+It is possible to query the model on a Jupyter notebook provided on our [repository](https://github.com/Entreprecariat/Entreprecariat), or you can download the folder from there:
 
 {% file src=".gitbook/assets/InspectWordEmbedding.zip" %}
-
-&#x20;
