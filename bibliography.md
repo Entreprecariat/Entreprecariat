@@ -14,6 +14,4 @@ Jockers, Matthew L._, Macroanalysis - digital methods and literary history_, uni
 
 Ramsay, S., _Reading Machines: Toward an Algorithmic Criticism_, Champaign, IL, 2011
 
-{% embed url="https://www.jmlr.org/papers/volume10/newman09a/newman09a.pdf" %}
-
 [https://dl.acm.org/doi/abs/10.1145/1557019.1557121](https://dl.acm.org/doi/abs/10.1145/1557019.1557121)
