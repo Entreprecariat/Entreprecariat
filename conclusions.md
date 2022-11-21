@@ -39,3 +39,12 @@ Further analysis centered on the actors of entreprecariat (i.e. a corpus centred
 
 
 **\[TECHNICAL FUTURE DEVELOPMENTS]** From a pure Natural Language Processing and therefore, statistical point of view, it would be interesting to use non-probabilistic methods for topic modelling, both static and dynamic, and in particular to use Topic Distributions directly as feature vectors in supervised classification models, as described by Marc Kelechava [here](https://towardsdatascience.com/unsupervised-nlp-topic-models-as-a-supervised-learning-input-cf8ee9e5cf28).
+
+**\[THE VISION]** 
+> *Algorithmic criticism seeks a new kind of audience for text
+> analysis—one that is less concerned with fitness of method and the determina-
+> tion of interpretative boundaries, and one more concerned with evaluating the
+> robustness of the discussion that a particular procedure annunciates. *
+
+Entreprecariat - An unpretentious NLP test - is a project evolved in various months, with the vision to bring some of the most interesting works of the late years about labour [patafisica passage] in a Digital Humanities perspective. Therefore, our focus here is not centered on the technical development, that can always be improved (you can contact us [here]).
+Nevertheless, we'de like to exploit here some of the most intersting hints about this discourse.
