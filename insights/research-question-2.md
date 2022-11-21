@@ -20,26 +20,8 @@ Topics have been detected as follows:
 
 The life of the precarious worker is intertwined with its cornerstone of creativity and risk. The interesting fact is that, reading the words, it comes natural to identify a discourse about our times (the fact that the terms "migrant", "woman", "rights" are in the same topic, for example, denotes a file rouge to follow).
 
-<figure><img src="https://raw.githubusercontent.com/Entreprecariat/Entreprecariat/main/.gitbook/assets/TopicsByDocument.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/Entreprecariat/Entreprecariat/main/.gitbook/assets/TopicsByDocument.JPG" alt=""><figcaption><p>Topics per document. Made in KNIME.</p></figcaption></figure>
 
-Words per topic:
+The list of the main word per topic can be download in .csv format here:
 
-_**Topic\_0**_
-
-labour | social | country | benefit | migrant | society | cent | security | firm | woman | temporary | rights | public | wages | cost | form | service | million | global | grow | move | policy | status | call | age |
-
-_**Topic\_1**_
-
-platform | digital | company | internet | datum | user | service | write | online | social | call | exploitation | value | media | design | cooperative | start | crowd | book | chapter | business | site | day | share | term |
-
-_**Topic\_2**_
-
-project | individual | self | social | creative | human | power | subject | quality | contract | management | form | theory | practice | experience | model | idea | force | mean | action | sense | competition | follow | success |
-
-_**Topic\_3**_
-
-social | europe | union | america | precarity | power | neoliberalism | global | recession | unemployment | revolution | rate | financial | populism | democracy | wage | capitalist | green | form | war | basic | defeat | demand | lead | national |
-
-_**Topic\_4**_
-
-social | process | human | cognitive | form | mind | effect | intellectual | depression | century body | power | production | attention | war | sign | condition | organism | capitalist | information | knowledge | word | productive | sphere | desire |
+{% file src="../.gitbook/assets/Topic (1).csv" %}
