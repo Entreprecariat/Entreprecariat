@@ -49,13 +49,19 @@ New documents of semantic and syntactic similarity between words are obtained di
 
 **\[EDITING AND CURATION]** As a matter of fact, the process aimed to reach the most valuable index of held-out likelihood in order to prevent over/underf fitting. Meaning that we got our hands into practically **tuning the aspects of our interest trhough the whole pipeline**. For example, here we don't mean to rely on chapters division based modelling, and we chose to add some nouns into the stop words collections, since it was resulting irrelevant for the initial purpose of the process (see for more [here](https://link.springer.com/article/10.1007/s10994-013-5413-0)).
 
+Technical Specifications:
+No. of topics: 5
+No. of words per topic: 25
+Alpha: 0,4
+Beta: 0,1
+No. of iterations: 2000
+No. of threads: 8
+
 **\[AREAS OF POTENTIAL INTEREST]** As stated in the Research Question [chapter](the-project/research-questions.md), we asked ourselves: how can we manage to put a spot on the **neologism**, treating the book as an innovative piece of literature?
 
-While going on with the mainly Python-based practice, we encountered an interesting piece of research from of the most relevant personalities in the field of topic modelling, i.e. professor David Mimno that, together with [other researchers](bibliography.md), explains how topic modeling for scientific papers differs in some ways from that related to fiction books.
+While going on with through the work practice, we encountered an interesting piece of research from of the most relevant personalities in the field of topic modelling, i.e. professor David Mimno that, together with [other researchers](bibliography.md), explains how topic modeling for scientific papers differs in some ways from that related to fiction books.
 
-Indeed, the attention towards innovative topic is not rarely found in scientific research paper studies; in that case it is shed a light on new techniques, new understanding, new terminologies.
-
-In the era of Fourth Revolution, information is the most important currency, and this can also be read in Entreprecariat, and in other prevident books like the not less famous "The Gutemberg Galaxy" of Marshall McLuhan. &#x20;
+Indeed, the attention towards innovative topic is not rarely found in scientific research paper studies; in that case it is shed a light on new techniques, new understanding, new terminologies provided by the text.
 
 **To consider the book "Entreprecariat" as a vademecum of the zeitgeist means leafing through it with a look on politics and social life not only of the Western World.
 
@@ -63,7 +69,7 @@ We talked about the possible future imporvements of the projects [here](conclusi
 
 **\[CONNECTING THE DOTS]** For what said until now, topic modelling approaches entered the work flow phisiologically, since it is based on the so-called "posterior inference", i.e. a practice clearly based on input data.&#x20;
 
-**The act of inferring here is a pure act of reverse engineering**, than excellent when it comes to connecting the dots between topic models. Finally, we can say that topic modelling is a way of "Operationalising the concept of Distant Reading", or in Moretti's words:
+**The act of inferring here is a pure act of reverse engineering**, than excellent when it comes to connecting the dots between topic models. Finally, we can say that topic modelling is a way of "Operationalising the concept of Distant Reading" ([Applications of Topic Models](bibliography.md)), or in Moretti's words:
 
 > _**Taking a concept, and transforming it into a series of operations (Moretti, 2013)**_
 
