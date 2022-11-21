@@ -9,7 +9,7 @@ description: >-
 
 By means of the Word2Vec model provided by Gensim, we could make inferences of similarities between words. It emerges that the word "entreprecariat" has a strong connection with the word "youth" and a weak connection to the word "work". Furthermore, by querying our model we found out that the ten words most similar to "enterprecariat" are the following:
 
-![](<../.gitbook/assets/image (3).png>)&#x20;
+![](../.gitbook/assets/image.png)&#x20;
 
 The code with the queries is available on our Github [repository](https://github.com/Entreprecariat/Entreprecariat) or you can download it from there:
 
