@@ -21,7 +21,7 @@ _Realities in Italy_
 
 [LaScuolaOpenSource](https://www.lascuolaopensource.xyz/en/manifesto)
 
-[ArtWayofThinking](https://www.artway.info/), last checked on 22 November 2022
+[ArtWayofThinking](https://www.artway.info/)
 
 [Nuove Tecnologie dell'Arte](https://www.nuovetecnologiedellarte.it/)
 
