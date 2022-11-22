@@ -6,7 +6,7 @@ description: Something about us
 
 Bianca La Manna and Giusy Grieco are two students at the MA "Digital Humanities and Digital Knowledge" at the University of Bologna.&#x20;
 
-The interests in social changes and forecasting techniques together with an insight in open source realities of Giusy Grieco were the starting point to define the topic of the research. Bianca La Manna entusiastically joined the team, bringing her interests in the knwoledge representation, that passes through the logical deduction and, thanks to computers, the automatic associations extracted by computers.&#x20;
+The interests in social changes and forecasting techniques together with an insight in open source realities of Giusy Grieco were the starting point to define the topic of the research. Bianca La Manna entusiastically joined the team, bringing her interest in the knwowledge representation field, that passes through the logical deduction and, thanks to computers, the automatic associations extracted by computers.&#x20;
 
 ### Contact us
 
