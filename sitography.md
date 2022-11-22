@@ -22,5 +22,3 @@ Yao L., Mimno D. and McCallum A, _Efficient methods for topic model inference on
 
 [NER Python Humanities](https://ner.pythonhumanities.com/ner.pythonhumanities.com), last checked on 22 November 2022.
 
-[The Coding Train](https://thecodingtrain.com/), last checked on 22 November 2022.
-
