@@ -1,6 +1,6 @@
 # Additional resources
 
-_Theoretical resources/Articles_
+_Theoretical resources/Articles/Digital Gardens_
 
 [Jeffrey Schnapp, on Knowledge Design](https://jeffreyschnapp.com/wp-content/uploads/2011/06/HH_lectures_Schnapp_01.pdf)
 
