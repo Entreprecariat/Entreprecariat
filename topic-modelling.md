@@ -46,7 +46,19 @@ New documents of semantic and syntactic similarity between words are obtained di
 
 **\[MODELLING]** The real strenght of topic models here relies on "tracking down this otherness hidden in language (and, perhaps, in what language talks about)" ([_Reading Machines_](bibliography.md)). Through a careful job of fine tuning, **5 topics** have been retrieved from the analysis. Though has been decided to mantain certin words in more than one topic, to avoid a large number of repetitions the preprocessing has been enriched making some tests in lemmatizing and stemming of the documents.
 
-Technical Specifications: No. of topics: 5 No. of words per topic: 25 Alpha: 0,4 Beta: 0,1 No. of iterations: 2000 No. of threads: 8
+Technical Specifications: 
+
+No. of topics: 5 
+
+No. of words per topic: 25 
+
+Alpha (- the distribution of - the number of words per topic): 0,4 
+
+Beta (- the distribution of - the number of topics per document): 0,1 
+
+No. of iterations: 2000 
+
+No. of threads: 8
 
 <figure><img src=".gitbook/assets/Entreprecariat_BagOfWords_TM.JPG" alt=""><figcaption><p>Word cloud obtained from the Topic Detection</p></figcaption></figure>
 
