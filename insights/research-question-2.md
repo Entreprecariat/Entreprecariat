@@ -32,3 +32,5 @@ Relevant words generated in the second topic - SHARING ECONOMY - delineate some 
 
 Topic_2, has been nominated "Entreprecariat Life" and is well connected to what states the Guardian: "Neoliberalism sees **competition** as the defining characteristic of human relations. It redefines citizens as consumers, whose democratic choices are best exercised by buying and selling, a process that rewards merit and punishes inefficiency. It maintains that “the market” delivers benefits that could never be achieved by planning." In the post-neoliberalist era, the entreprecariat relies on the **management** of his/her **creativity** to **model** the path to success.
 
+**War, unemployment, populism** and **recession** are terms that denote a negative connotation of the capitalism, what Mark Fisher had called Realism Capitalism.
+
