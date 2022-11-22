@@ -4,7 +4,7 @@
 
 ## The project
 
-Entreprecariat - An unpretentious NLP test - is a project evolved in various months, with the vision to bring some of the most interesting works of the late years about labour in a Digital Humanities perspective.
+**Entreprecariat - An unpretentious NLP test** - is a project evolved in various months, with the vision to bring some of the most interesting works of the late years about labour in a Digital Humanities perspective.
 
 Entreprecariat is a neologism formalized by Silvio Lorusso, that combines the word 'entrepreneur' and 'precariat' as the core of the creative jobs in our days. The meaning of 'entreprecariat' is well explained in the homonym book written by Lorusso and first published in 2018.
 
