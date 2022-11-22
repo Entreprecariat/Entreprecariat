@@ -16,3 +16,4 @@
 * [Conclusions](conclusions.md)
 * [The Team](the-team.md)
 * [Bibliography](bibliography.md)
+* [Additional resources](additional-resources.md)
