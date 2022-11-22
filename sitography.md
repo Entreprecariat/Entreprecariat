@@ -8,7 +8,7 @@ Fisher, M., _Capitalist realism : is there no alternative?_, Zero books, 2009
 
 Floridi, L., _The Logic of Information: A Theory of Philosophy as Conceptual Design_, Oxford University Press, 2019
 
-Mattingly, William. _Introduction to Named Entity Recognition_, 2021 (2nd ed.). [ner.pythonhumanities.com](https://ner.pythonhumanities.com/ner.pythonhumanities.com).
+Mattingly, William. _Introduction to Named Entity Recognition_, 2021 (2nd ed.). 
 
 Moretti F., _Distant reading_, Verso, 2013
 
@@ -18,6 +18,9 @@ Jockers, Matthew L._, Macroanalysis - digital methods and literary history_, uni
 
 Ramsay, S., _Reading Machines: Toward an Algorithmic Criticism_, Champaign, IL, 2011
 
-[The Coding Train](https://thecodingtrain.com/), last checked on 22 November 2022
-
 Yao L., Mimno D. and McCallum A, _Efficient methods for topic model inference on streaming document collections_, In Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD '09). Association for Computing Machinery, 2009
+
+[NER Python Humanities](https://ner.pythonhumanities.com/ner.pythonhumanities.com), last checked on 22 November 2022.
+
+[The Coding Train](https://thecodingtrain.com/), last checked on 22 November 2022.
+
