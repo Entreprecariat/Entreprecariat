@@ -34,8 +34,6 @@ What brings to those workers to feel uncertainty and no long-term perspective is
 
 On the counterpart, works related to technologies need a high level education and till now even when technologies are superseeded, the 'enterprecariats' stay on the labour market, since their knowledge give them a **strategic position** to access first those new jobs.
 
-Those suggestions comes from the observation of the underlying patterns that go along our data.
-
 Further analysis centered on the actors of entreprecariat (i.e. a corpus centred on those organizations and companies) could confirm them or bring a completely new perspective.
 
 **\[TECHNICAL FUTURE DEVELOPMENTS]** From a pure Natural Language Processing and therefore, statistical point of view, it would be interesting to use **non-probabilistic methods** for topic modelling, both static and dynamic, and in particular to use Topic Distributions directly as feature vectors in supervised classification models, as described by Marc Kelechava [here](https://towardsdatascience.com/unsupervised-nlp-topic-models-as-a-supervised-learning-input-cf8ee9e5cf28).
@@ -44,10 +42,6 @@ Further analysis centered on the actors of entreprecariat (i.e. a corpus centred
 
 > **Algorithmic criticism** seeks a new kind of audience for text analysis — one that is less concerned with fitness of method and the determination of interpretative boundaries, and one more concerned with evaluating the robustness of the discussion that a particular procedure annunciates. _(Reading Machines, 2011)_\*
 
-Our focus here is not centered on the technical development, that can always be improved (you can [contact us](the-team.md)). As brought out multiple times during his conferences, the way to unlock the actual situation passess through the **generative social process of communities**, as identified by Lorusso. We're dealing here not only with mutual help but most of all, the **facilitation for the passage of culture and education**. The return to left/right populism is evident in a new reality that is community-based and non-decentralized in an interconnected world.&#x20;
+Our focus here is not centered on the technical development, that can always be improved (you can [contact us](the-team.md)). As brought out multiple times during his conferences, the way to have an "alternative" response to the actual situation passess through the **generative social process of communities**, as identified by Lorusso and many more). We're dealing here not only with mutual help but most of all, the **facilitation for the passage of culture and education**. The return to right populism bangs against new forms of community-based aggregations and non-decentralized as it's happening in the web3.&#x20;
 
-As stated by Alessandro Longo, the tech collapse is not so far, and we may find ourselves in a future made of very rudimental technological tools to survive and communicate.
-
-> Extractivism is the condicio sine qua non of the technosphere, the backbone of every digital operation we do, and of every piece of information circulating on the planet. To really understand the technological world then we have to follow the traces of its supply chains, trying to grasp the fractal complexity of our economic system, which works precisely because each agent operates without total knowledge of the process. Perhaps, total knowledge is impossible\[...]. The system is designed to be opaque; the reality of production is obscured by the glossy appearance of spectacle. " [(link)](https://reincantamento.xyz/Tech-Collapse)
-
-The tacherian motto "There is no alternative" mutuates into "Is there some alternative?". Following up Longo's article, "There is no elsewhere" for sure, and according to Foti, "\[...]democracy's greatest achievement – the welfare state – still remains outside the reach of European Union treaties, since national governments consider it their preserve."
+The tacherian motto "There is no alternative" mutuates into "Is there some alternative?". For sure, a possibility in the wide rhizomatic range of the net is represented by less or more spontaneously-born hacktivist and open source realities for producing and publishing content.
