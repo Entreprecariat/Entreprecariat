@@ -10,6 +10,8 @@ _Theoretical resources/Articles/Digital Gardens/Lyrics_
 
 
 
+#
+
 _Practicing coding_
 
 [The Coding Train](https://thecodingtrain.com/)
@@ -17,6 +19,9 @@ _Practicing coding_
 [Tim Rodenbroker](https://timrodenbroeker.de/)
 
 
+
+
+#
 _Realities in Italy_
 
 [LaScuolaOpenSource](https://www.lascuolaopensource.xyz/en/manifesto)
@@ -39,4 +44,7 @@ https://cooperativadedisenio.com/
 
 Last checked on 22 November 2022.
 
-[Little Simz latest album, NO THANK YOU](https://open.spotify.com/album/57263zG8Md6XZ9lBUPPYCm?si=42NJQQWCQsuJRC1KHtSFYg)
+
+
+#
+Little Simz latest album, [NO THANK YOU](https://open.spotify.com/album/57263zG8Md6XZ9lBUPPYCm?si=42NJQQWCQsuJRC1KHtSFYg)
